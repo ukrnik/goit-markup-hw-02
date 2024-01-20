@@ -42,7 +42,8 @@ ol {
 }
 
 .nav-link:hover,
-.nav-link:active {
+.nav-link:active,
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -136,12 +137,20 @@ ol {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .our-team-list h3 {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.our-team-list p {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -158,6 +167,7 @@ ol {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .portfolio-list h3 {
@@ -185,21 +195,19 @@ ol {
 
 .footer-logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .footer-logo-part {
   color: var(--CLOUD, #f4f4fd);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
