@@ -58,6 +58,7 @@ ol {
 }
 
 .address-link:hover,
+.address-link:active,
 .address-link:focus {
   color: #404bbf;
 }
@@ -86,13 +87,13 @@ ol {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border-radius: 4px;
   background-color: #4d5ae5;
   cursor: pointer;
 }
 
 .boarder-btn:hover,
-.boarder-btn:active {
+.boarder-btn:active,
+.boarder-btn:focus {
   background-color: #404bbf;
 }
 
