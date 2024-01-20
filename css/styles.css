@@ -128,10 +128,10 @@ ol {
 
 /** ==========OUR-TEAM========== */
 
-.our-team {
+.team {
   background-color: #f4f4fd;
 }
-.our-team-title {
+.team-title {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -139,7 +139,7 @@ ol {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.our-team-list h3 {
+.team-list h3 {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -147,14 +147,14 @@ ol {
   letter-spacing: 0.02em;
 }
 
-.our-team-list p {
+.team-list p {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.our-team-list li {
+.team-list li {
   background-color: #ffffff;
 }
 /* ------------------------------ */
@@ -197,6 +197,7 @@ ol {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
+  font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -206,6 +207,7 @@ ol {
   color: var(--CLOUD, #f4f4fd);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
+  font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
