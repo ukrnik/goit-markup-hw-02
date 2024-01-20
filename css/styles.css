@@ -37,6 +37,10 @@ ol {
   letter-spacing: 0.02em;
 }
 
+.nav-link {
+  color: #2e2f42;
+}
+
 .nav-link:hover,
 .nav-link:active {
   color: #404bbf;
@@ -72,18 +76,24 @@ ol {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .boarder-btn {
   color: #fff;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   border-radius: 4px;
   background-color: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.boarder-btn:hover,
+.boarder-btn:active {
+  background-color: #404bbf;
 }
 
 /* ------------------------------ */
@@ -91,7 +101,11 @@ ol {
 /** ==========STRATEGY========== */
 
 .strategy-title {
-  display: none;
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 }
 
 .strategy-list h3 {
